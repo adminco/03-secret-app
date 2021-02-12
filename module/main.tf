@@ -7,7 +7,7 @@ data "archive_file" "lambda-function-file" {
 }
 
 
-#This is the Trust Relationship Lambda Assume role Policy Document
+#This is the Trusted Entity Lambda role Policy Document
 data "aws_iam_policy_document" "lambda-assume-role-policy-json" {
   statement {
     effect = "Allow"
