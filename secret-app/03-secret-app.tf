@@ -1,4 +1,4 @@
 module "secret-app" {
  source      = "../module"
- bucket_name = "secret-app"
+ bucket_name = "planitarinc-secret-app"
 }
