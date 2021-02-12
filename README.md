@@ -22,7 +22,12 @@ Also, based on this design, direct access to the s3 bucket's source code files w
 
 # Usage
 - Please note that a module used for this project to make it reusable, maintenable and testable in different environments
-
+- Logon credentials: 
+  ```
+  Username: admin
+  Password: admin
+  ```
+  
 **Key directories and files**
 - module/ ==> this directory contains the reusable terraform configuration files
 - secret-app/ ==> this directory is the working directory for implementing the project
