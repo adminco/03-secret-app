@@ -1,0 +1,12 @@
+{
+ ".css": "text/css",
+ ".gz": "application/gzip",
+ ".html": "text/html",
+ ".htm": "text/html",
+ ".jpeg": "image/jpeg",
+ ".js": "application/javascript",
+ ".json": "application/json",
+ ".mpeg": "video/mpeg",
+ ".png": "image/png",
+ ".pdf": "application/pdf"
+}
