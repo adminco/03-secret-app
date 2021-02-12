@@ -9,5 +9,8 @@ This is an automated deployment of a static website on aws s3 with basic authent
 - **CloudFront**
 - **Lambda**
 
+# Project Design
+
+
 
 
