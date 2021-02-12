@@ -15,7 +15,7 @@ Also, based on this design, direct access to the s3 bucket's source code files w
 
 **Steps**
 - A *viewer request* is sent from the browser to the Cloudfront distribution which triggers a Lambda function (this prompts the user for a username and password)
-   - Note that a Lambda@Edge feature of CloudFront makes this trigger possible
+   - Note that *Lambda@Edge*, feature of CloudFront makes this trigger possible
 - The Lambda function is a javascript callback function that does the basic authentication
 - Once the user is authenticated, the Cloudfront distribution sends an *origin request*  via a secret header to the S3 bucket serving the secret web app
 - The S3 bucket sends back an *origin response* to the Cloudfront distribution once it validates the *origin request* via the secret header
