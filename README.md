@@ -19,7 +19,7 @@ Also, based on this design, direct access to the s3 bucket's source code files w
 - The Lambda function is a javascript callback function that does the basic authentication
 - Once the user is authenticated, the Cloudfront distribution sends an *origin request*  via a secret header to the S3 bucket serving the secret web app
 - The S3 bucket sends back an *origin response* to the Cloudfront distribution once it validates the *origin request* via the secret header
-- Cloudfront distribution sends back a viewer response to the end user which then serves secret web app page on the browser
+- Cloudfront distribution sends back a viewer response to the end user which then serves the secret web app page on the browser
 
 # Usage
 - Please note that a terraform module is used for this project to make it reusable, maintenable and testable in different environments
