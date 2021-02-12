@@ -21,7 +21,7 @@ Also, based on this design, direct access to the s3 bucket's source code files w
 - Cloudfront distribution sends back a viewer response to the end user which then serves secret web app page on the browser
 
 # Usage
-- Please note that a module used for this project to make it reusable, maintenable and testable in different environments
+- Please note that a terraform module is used for this project to make it reusable, maintenable and testable in different environments
 - Logon credentials: 
   ```
   Username: admin
