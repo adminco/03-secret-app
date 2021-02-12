@@ -10,7 +10,7 @@ This is an automated deployment of a static website on aws s3 with basic authent
 - **Lambda**
 
 # Project Design
-
+<img src="./Design.png">
 
 
 
